@@ -4,6 +4,7 @@ import { CommandMenu } from "@/components/command-menu";
 import { LanguageToggle } from "@/components/language-toggle";
 import { ModeToggle } from "@/components/mode-toggle";
 import { Header } from "@/components/resume/header";
+import { Skills } from "@/components/resume/skills";
 import { Summary } from "@/components/resume/summary";
 import { WorkExperience } from "@/components/resume/work-experience";
 import { Separator } from "@/components/ui/separator";
@@ -81,6 +82,8 @@ const Page = () => {
           <Summary />
           <Separator />
           <WorkExperience />
+          <Separator />
+          <Skills />
         </div>
       </section>
 

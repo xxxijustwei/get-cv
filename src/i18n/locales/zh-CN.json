@@ -17,7 +17,8 @@
   },
   "common": {
     "summary": "个人简介",
-    "work-experience": "工作经历"
+    "work-experience": "工作经历",
+    "skills": "技术栈"
   },
   "resume": {
     "name": "邹燊炜",
@@ -94,6 +95,31 @@
           }
         ]
       }
+    ],
+    "skills": [
+      "Next.js",
+      "React",
+      "Nest.js",
+      "Hono",
+      "Solidity",
+      "Tailwind CSS",
+      "Radix UI",
+      "Shadcn UI",
+      "Supabase",
+      "Upstash",
+      "PostgreSQL",
+      "MongoDB",
+      "SQLite",
+      "Redis",
+      "Mongoose",
+      "Drizzle ORM",
+      "Hardhat",
+      "Wagmi",
+      "Viem",
+      "Docker",
+      "Github Actions",
+      "Vercel",
+      "Cloudflare"
     ]
   }
 }

@@ -17,7 +17,8 @@
   },
   "common": {
     "summary": "Summary",
-    "work-experience": "Work Experience"
+    "work-experience": "Work Experience",
+    "skills": "Skills"
   },
   "resume": {
     "name": "SHENWEI ZOU",
@@ -44,7 +45,7 @@
         "officeMode": "Hybrid",
         "start": "2023.04",
         "end": "2025.07",
-        "jobTitle": "Senior Frontend Engineer → Full-Stack Developer",
+        "jobTitle": "Senior Frontend Engineer → Full-Stack Engineer",
         "techstack": [
           "Next.js",
           "React",
@@ -94,6 +95,31 @@
           }
         ]
       }
+    ],
+    "skills": [
+      "Next.js",
+      "React",
+      "Nest.js",
+      "Hono",
+      "Solidity",
+      "Tailwind CSS",
+      "Radix UI",
+      "Shadcn UI",
+      "Supabase",
+      "Upstash",
+      "PostgreSQL",
+      "MongoDB",
+      "SQLite",
+      "Redis",
+      "Mongoose",
+      "Drizzle ORM",
+      "Hardhat",
+      "Wagmi",
+      "Viem",
+      "Docker",
+      "Github Actions",
+      "Vercel",
+      "Cloudflare"
     ]
   }
 }

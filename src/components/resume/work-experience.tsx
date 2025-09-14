@@ -62,9 +62,11 @@ export const WorkExperienceItem = (props: WorkExperienceItemProps) => {
           <CompanyLink company={company} link={link} />
           <WorkPeriod start={start} end={end} />
         </div>
-        <div className="flex sm:flex-row flex-col-reverse justify-between sm:gap-x-2 gap-0.5 ">
-          <div className="font-mono text-sm font-semibold">{jobTitle}</div>
-          <div className="text-sm">{`${region} | ${officeMode}`}</div>
+        <div className="flex sm:flex-row flex-col-reverse justify-between sm:gap-x-2 gap-0.5">
+          <div className="font-mono text-sm print:text-[13px] font-semibold tracking-tighter">
+            {jobTitle}
+          </div>
+          <div className="text-sm text-[13px] tracking-tighter">{`${region} | ${officeMode}`}</div>
         </div>
 
         <BadgeList className="gap-x-1 pt-0.5" badges={techstack} />
