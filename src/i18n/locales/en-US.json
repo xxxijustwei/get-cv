@@ -18,7 +18,8 @@
   "common": {
     "summary": "Summary",
     "work-experience": "Work Experience",
-    "skills": "Skills"
+    "skills": "Skills",
+    "education": "Education"
   },
   "resume": {
     "name": "SHENWEI ZOU",
@@ -40,7 +41,7 @@
     "works": [
       {
         "company": "Materia Logic",
-        "link": "https://mageria-logic.com",
+        "link": "https://materia-logic.com",
         "region": "Hong Kong & Shenzhen",
         "officeMode": "Hybrid",
         "start": "2023.04",
@@ -120,6 +121,74 @@
       "Github Actions",
       "Vercel",
       "Cloudflare"
+    ],
+    "education": [
+      {
+        "school": "Shenzhen Polytechnic University",
+        "major": "Computer Application Technology",
+        "start": "2018",
+        "end": "2021"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Crypto Invoice",
+        "herf": "https://github.com/xxxijustwei/crypto-invoice",
+        "techstack": [
+          "Next.js",
+          "Tailwind CSS",
+          "Radix UI",
+          "Shadcn UI",
+          "Puppeteer"
+        ],
+        "descriptions": [
+          "A fast, secure, and elegant cryptocurrency invoice generation solution for freelancers, businesses, and entrepreneurs.",
+          "Uses Puppeteer to generate Crypto Invoice PDFs, aiming to simplify and standardize the invoicing process for crypto transactions."
+        ]
+      },
+      {
+        "name": "Gabriel AI",
+        "herf": "https://github.com/xxxijustwei/gabriel-web",
+        "techstack": [
+          "Next.js",
+          "Tailwind CSS",
+          "Nest.js",
+          "AI SDK",
+          "Supabase",
+          "Drizzle ORM"
+        ],
+        "descriptions": [
+          "Gabriel AI is an AI-powered application built with Next.js and Nest.js.",
+          "Designed for exchange data analysis, focusing on token fund flow tracking and supporting scheduled analysis tasks."
+        ]
+      },
+      {
+        "name": "ednesdayW",
+        "herf": "https://github.com/xxxijustwei/ednesdayW",
+        "techstack": ["Next.js", "Tailwind CSS", "Radix UI", "Shadcn UI"],
+        "descriptions": [
+          "WednesdayW is a headless UI component library project built on top of Radix UI.",
+          "Provides flexible and customizable frontend component solutions, ensuring accessibility and adaptability."
+        ]
+      },
+      {
+        "name": "erc2535-hardhat",
+        "herf": "https://github.com/xxxijustwei/erc2535-hardhat",
+        "techstack": ["Hardhat v3", "Solidity", "Viem"],
+        "descriptions": [
+          "A production-grade smart contract implementation based on the EIP-2535 Diamond Standard, built with a modern tech stack.",
+          "Solves Ethereum’s 24KB contract size limitation by using the Diamond Pattern to enable modular, upgradeable smart contract architecture."
+        ]
+      },
+      {
+        "name": "Pathfinding",
+        "herf": "https://github.com/xxxijustwei/Pathfinding",
+        "techstack": ["Java", "Bukkit", "Spigot"],
+        "descriptions": [
+          "A high-performance A* pathfinding system implemented in the Minecraft 3D game environment.",
+          "Focuses on solving complex path planning problems in 3D space, providing intelligent autonomous navigation for game entities."
+        ]
+      }
     ]
   }
 }

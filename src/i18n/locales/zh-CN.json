@@ -18,7 +18,8 @@
   "common": {
     "summary": "个人简介",
     "work-experience": "工作经历",
-    "skills": "技术栈"
+    "skills": "技术栈",
+    "education": "教育经历"
   },
   "resume": {
     "name": "邹燊炜",
@@ -40,7 +41,7 @@
     "works": [
       {
         "company": "Materia Logic",
-        "link": "https://mageria-logic.com",
+        "link": "https://materia-logic.com",
         "region": "Hong Kong & Shenzhen",
         "officeMode": "混合办公",
         "start": "2023.04",
@@ -120,6 +121,74 @@
       "Github Actions",
       "Vercel",
       "Cloudflare"
+    ],
+    "education": [
+      {
+        "school": "深圳职业技术大学",
+        "major": "计算机应用技术",
+        "start": "2018",
+        "end": "2021"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Crypto Invoice",
+        "herf": "https://github.com/xxxijustwei/crypto-invoice",
+        "techstack": [
+          "Next.js",
+          "Tailwind CSS",
+          "Radix UI",
+          "Shadcn UI",
+          "Puppeteer"
+        ],
+        "descriptions": [
+          "该项目为自由职业者、企业和创业者提供了一个快速、安全、美观的加密货币发票生成解决方案",
+          "该项目使用 Puppeteer 生成Crypto Invoice PDF, 旨在简化和标准化加密货币交易的发票流程"
+        ]
+      },
+      {
+        "name": "Gabriel AI",
+        "herf": "https://github.com/xxxijustwei/gabriel-web",
+        "techstack": [
+          "Next.js",
+          "Tailwind CSS",
+          "Nest.js",
+          "AI SDK",
+          "Supabase",
+          "Drizzle ORM"
+        ],
+        "descriptions": [
+          "Gabriel AI 是一个基于 Next.js 和 Nest.js 的 AI 应用",
+          "⽤作交易所的数据分析，主要提供代币资⾦流向分析等功能。⽀持定时任务分析"
+        ]
+      },
+      {
+        "name": "ednesdayW",
+        "herf": "https://github.com/xxxijustwei/ednesdayW",
+        "techstack": ["Next.js", "Tailwind CSS", "Radix UI", "Shadcn UI"],
+        "descriptions": [
+          "WednesdayW 是一个基于 Radix UI 的 headless UI 组件库项目",
+          "提供灵活可定制的前端组件解决方案，确保组件的可访问性和灵活性"
+        ]
+      },
+      {
+        "name": "erc2535-hardhat",
+        "herf": "https://github.com/xxxijustwei/erc2535-hardhat",
+        "techstack": ["Hardhat v3", "Solidity", "Viem"],
+        "descriptions": [
+          "这是一个基于 EIP-2535 钻石标准的生产级智能合约实现，采用现代化技术栈构建",
+          "该项目解决了以太坊智能合约 24KB 字节码限制问题，通过钻石模式实现了模块化、可升级的智能合约架构"
+        ]
+      },
+      {
+        "name": "Pathfinding",
+        "herf": "https://github.com/xxxijustwei/Pathfinding",
+        "techstack": ["Java", "Bukkit", "Spigot"],
+        "descriptions": [
+          "这是一个在 Minecraft 3D 游戏环境中实现的高性能 A* 寻路算法系统",
+          "该项目专注于解决三维空间中的复杂路径规划问题，为游戏实体提供智能化的自动导航能力"
+        ]
+      }
     ]
   }
 }
