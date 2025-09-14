@@ -1,0 +1,39 @@
+{
+  "locale": {
+    "en-US": "🇺🇸 English",
+    "zh-CN": "🇨🇳 简体中文"
+  },
+  "command_menu": {
+    "press": "Press",
+    "to_open_the_command_menu": "to open the command menu",
+    "type_placeholder": "Type a command or search...",
+    "actions": "Actions",
+    "links": "Links",
+    "print": "Print",
+    "personal_website": "Personal Website",
+    "contact_with_email": "Contact with email",
+    "contact_with_wechat": "Contact with wechat",
+    "no_results_found": "No results found"
+  },
+  "common": {
+    "summary": "Summary"
+  },
+  "resume": {
+    "name": "SHENWEI ZOU",
+    "location": "ShenZhen, China",
+    "locationUrl": "https://www.google.com/maps/place/ShenZhen,+GuangDong+Province,+China",
+    "personalWebsiteUrl": "",
+    "social": {
+      "email": "owner@ednesdayW.com",
+      "wechat": "xxxijustweii",
+      "social": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/xxxijustwei",
+          "icon": "Github"
+        }
+      ]
+    },
+    "summary": "Full-stack JavaScript engineer focused on front-end development, skilled in building scalable React applications and Node.js services.\nExperienced in independently leading projects with strong engineering and solution design skills. Committed to writing maintainable, high-quality code and following best practices.\nPassionate about staying up to date with emerging technologies and able to learn new tools and frameworks quickly."
+  }
+}

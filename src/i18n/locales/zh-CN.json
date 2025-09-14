@@ -1,0 +1,39 @@
+{
+  "locale": {
+    "en-US": "🇺🇸 English",
+    "zh-CN": "🇨🇳 简体中文"
+  },
+  "command_menu": {
+    "press": "按住",
+    "to_open_the_command_menu": "打开命令菜单",
+    "type_placeholder": "输入命令或搜索...",
+    "actions": "操作",
+    "links": "链接",
+    "print": "打印",
+    "personal_website": "个人网站",
+    "contact_with_email": "通过邮箱联系",
+    "contact_with_wechat": "通过微信联系",
+    "no_results_found": "当前是空的哦"
+  },
+  "common": {
+    "summary": "个人简介"
+  },
+  "resume": {
+    "name": "邹燊炜",
+    "location": "深圳, 中国",
+    "locationUrl": "https://www.google.com/maps/place/ShenZhen,+GuangDong+Province,+China",
+    "personalWebsiteUrl": "",
+    "social": {
+      "email": "owner@ednesdayW.com",
+      "wechat": "xxxijustweii",
+      "social": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/xxxijustwei",
+          "icon": "Github"
+        }
+      ]
+    },
+    "summary": "专注于前端的JS全栈工程师，擅长 React 应用程序、可扩展的 Node.js 服务。\n具备独立负责项目的经验，有非常好的工程能力和方案设计能力，注重代码开发/维护质量，遵循最佳实践。\n专注跟进新技术发展趋势，具备快速学习的能力。"
+  }
+}
