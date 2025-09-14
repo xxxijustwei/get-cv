@@ -8,7 +8,7 @@ import { Icon } from "../icons";
 export const Header = () => {
   const t = useTranslations("resume");
   return (
-    <header className="flex items-center justify-between">
+    <header className="flex items-center justify-between gap-4">
       <div className="flex-1 space-y-1.5">
         <h1 className="text-2xl font-bold" id="resume-name">
           {t("name")}

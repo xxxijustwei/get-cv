@@ -16,7 +16,8 @@
     "no_results_found": "No results found"
   },
   "common": {
-    "summary": "Summary"
+    "summary": "Summary",
+    "work-experience": "Work Experience"
   },
   "resume": {
     "name": "SHENWEI ZOU",
@@ -34,6 +35,65 @@
         }
       ]
     },
-    "summary": "Full-stack JavaScript engineer focused on front-end development, skilled in building scalable React applications and Node.js services.\nExperienced in independently leading projects with strong engineering and solution design skills. Committed to writing maintainable, high-quality code and following best practices.\nPassionate about staying up to date with emerging technologies and able to learn new tools and frameworks quickly."
+    "summary": "Full-stack JavaScript engineer focused on front-end development, skilled in building scalable React applications and Node.js services.\nExperienced in independently leading projects with strong engineering and solution design skills. Committed to writing maintainable, high-quality code and following best practices.\nPassionate about staying up to date with emerging technologies and able to learn new tools and frameworks quickly.",
+    "works": [
+      {
+        "company": "Materia Logic",
+        "link": "https://mageria-logic.com",
+        "region": "Hong Kong & Shenzhen",
+        "officeMode": "Hybrid",
+        "start": "2023.04",
+        "end": "2025.07",
+        "jobTitle": "Senior Frontend Engineer → Full-Stack Developer",
+        "techstack": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "Nest.js",
+          "Express",
+          "TypeScript",
+          "Node.js",
+          "Bun",
+          "MongoDB",
+          "Redis",
+          "Kafka",
+          "Solidity",
+          "Hardhat",
+          "Wagmi",
+          "Viem",
+          "Docker"
+        ],
+        "projects": [
+          {
+            "name": "Lumio",
+            "role": "Frontend Lead",
+            "description": [
+              "Lumio is an enterprise-grade fundraising SaaS platform that provides powerful fundraising features and tools, supporting multiple fundraising methods and scenarios.",
+              "Developed a user-friendly drag-and-drop visual page editor with multiple templates and components to simplify NGO fundraising page creation.",
+              "Built the CMS management system with Next.js 14 (App Router) + Puck Editor."
+            ]
+          },
+          {
+            "name": "Exapay",
+            "role": "Full-stack Maintainer",
+            "description": [
+              "Exapay is a decentralized payment gateway solution that offers secure, high-performance, and scalable on-chain payment capabilities, supporting multi-chain and multi-asset payment scenarios.",
+              "Implemented Smart Contracts based on the ERC-2535 Diamond standard, enabling an upgradeable and extensible architecture to reduce maintenance costs.",
+              "Built the Dapp as a full-stack application using Next.js 14 (App Router) + Nest.js."
+            ]
+          },
+          {
+            "name": "TransactionTracker",
+            "role": "Technical Lead",
+            "description": [
+              "A high-performance transaction monitoring and indexing system designed for EVM-compatible chains.",
+              "Supports Ethereum, BSC, Polygon mainnets and testnets.",
+              "Implemented an event-driven architecture, enabling flexible subscription to transactions, blocks, contracts, and log events.",
+              "Real-time capture of transactions, logs, and block data with low-latency indexing; easily extensible to new chains and custom monitoring strategies."
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

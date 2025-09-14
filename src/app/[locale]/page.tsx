@@ -5,6 +5,8 @@ import { LanguageToggle } from "@/components/language-toggle";
 import { ModeToggle } from "@/components/mode-toggle";
 import { Header } from "@/components/resume/header";
 import { Summary } from "@/components/resume/summary";
+import { WorkExperience } from "@/components/resume/work-experience";
+import { Separator } from "@/components/ui/separator";
 import { useTranslations } from "next-intl";
 
 const Page = () => {
@@ -55,11 +57,11 @@ const Page = () => {
 
   return (
     <main
-      className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-11 md:p-16"
+      className="container relative mx-auto scroll-my-12 overflow-auto px-4 pt-12 pb-4 print:p-11 md:p-16"
       id="main-content"
     >
       <div className="absolute top-0 left-0 right-0 print:hidden">
-        <div className="w-full max-w-2xl mx-auto py-4 flex items-center justify-between gap-2">
+        <div className="w-full max-w-2xl mx-auto py-2 px-4 sm:py-4 sm:px-0 flex items-center justify-between gap-2">
           <LanguageToggle />
           <ModeToggle />
         </div>
@@ -77,6 +79,8 @@ const Page = () => {
 
         <div className="space-y-4">
           <Summary />
+          <Separator />
+          <WorkExperience />
         </div>
       </section>
 
