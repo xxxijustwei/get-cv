@@ -19,7 +19,8 @@
     "summary": "Summary",
     "work-experience": "Work Experience",
     "skills": "Skills",
-    "education": "Education"
+    "education": "Education",
+    "projects": "Side Projects"
   },
   "resume": {
     "name": "SHENWEI ZOU",
@@ -134,11 +135,14 @@
       {
         "name": "Crypto Invoice",
         "herf": "https://github.com/xxxijustwei/crypto-invoice",
-        "techstack": [
+        "tags": [
           "Next.js",
           "Tailwind CSS",
           "Radix UI",
           "Shadcn UI",
+          "zod",
+          "react-hook-form",
+          "react-query",
           "Puppeteer"
         ],
         "descriptions": [
@@ -149,10 +153,11 @@
       {
         "name": "Gabriel AI",
         "herf": "https://github.com/xxxijustwei/gabriel-web",
-        "techstack": [
+        "tags": [
           "Next.js",
           "Tailwind CSS",
           "Nest.js",
+          "zod",
           "AI SDK",
           "Supabase",
           "Drizzle ORM"
@@ -165,7 +170,7 @@
       {
         "name": "ednesdayW",
         "herf": "https://github.com/xxxijustwei/ednesdayW",
-        "techstack": ["Next.js", "Tailwind CSS", "Radix UI", "Shadcn UI"],
+        "tags": ["Next.js", "Tailwind CSS", "Radix UI", "Shadcn UI"],
         "descriptions": [
           "WednesdayW is a headless UI component library project built on top of Radix UI.",
           "Provides flexible and customizable frontend component solutions, ensuring accessibility and adaptability."
@@ -174,7 +179,7 @@
       {
         "name": "erc2535-hardhat",
         "herf": "https://github.com/xxxijustwei/erc2535-hardhat",
-        "techstack": ["Hardhat v3", "Solidity", "Viem"],
+        "tags": ["Hardhat v3", "Solidity", "Viem"],
         "descriptions": [
           "A production-grade smart contract implementation based on the EIP-2535 Diamond Standard, built with a modern tech stack.",
           "Solves Ethereum’s 24KB contract size limitation by using the Diamond Pattern to enable modular, upgradeable smart contract architecture."
@@ -183,7 +188,14 @@
       {
         "name": "Pathfinding",
         "herf": "https://github.com/xxxijustwei/Pathfinding",
-        "techstack": ["Java", "Bukkit", "Spigot"],
+        "tags": [
+          "Java",
+          "Bukkit",
+          "Maven",
+          "Spigot",
+          "A* Algorithm",
+          "3D Game"
+        ],
         "descriptions": [
           "A high-performance A* pathfinding system implemented in the Minecraft 3D game environment.",
           "Focuses on solving complex path planning problems in 3D space, providing intelligent autonomous navigation for game entities."

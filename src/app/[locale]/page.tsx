@@ -5,6 +5,7 @@ import { LanguageToggle } from "@/components/language-toggle";
 import { ModeToggle } from "@/components/mode-toggle";
 import { Education } from "@/components/resume/education";
 import { Header } from "@/components/resume/header";
+import { Project } from "@/components/resume/project";
 import { Skills } from "@/components/resume/skills";
 import { Summary } from "@/components/resume/summary";
 import { WorkExperience } from "@/components/resume/work-experience";
@@ -87,6 +88,8 @@ const Page = () => {
           <Skills />
           <Separator />
           <Education />
+          <Separator />
+          <Project />
         </div>
       </section>
 

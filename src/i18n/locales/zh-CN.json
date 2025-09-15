@@ -19,7 +19,8 @@
     "summary": "个人简介",
     "work-experience": "工作经历",
     "skills": "技术栈",
-    "education": "教育经历"
+    "education": "教育经历",
+    "projects": "个人项目"
   },
   "resume": {
     "name": "邹燊炜",
@@ -134,11 +135,14 @@
       {
         "name": "Crypto Invoice",
         "herf": "https://github.com/xxxijustwei/crypto-invoice",
-        "techstack": [
+        "tags": [
           "Next.js",
           "Tailwind CSS",
           "Radix UI",
           "Shadcn UI",
+          "zod",
+          "react-hook-form",
+          "react-query",
           "Puppeteer"
         ],
         "descriptions": [
@@ -149,10 +153,11 @@
       {
         "name": "Gabriel AI",
         "herf": "https://github.com/xxxijustwei/gabriel-web",
-        "techstack": [
+        "tags": [
           "Next.js",
           "Tailwind CSS",
           "Nest.js",
+          "zod",
           "AI SDK",
           "Supabase",
           "Drizzle ORM"
@@ -165,7 +170,7 @@
       {
         "name": "ednesdayW",
         "herf": "https://github.com/xxxijustwei/ednesdayW",
-        "techstack": ["Next.js", "Tailwind CSS", "Radix UI", "Shadcn UI"],
+        "tags": ["Next.js", "Tailwind CSS", "Radix UI", "Shadcn UI"],
         "descriptions": [
           "WednesdayW 是一个基于 Radix UI 的 headless UI 组件库项目",
           "提供灵活可定制的前端组件解决方案，确保组件的可访问性和灵活性"
@@ -174,16 +179,23 @@
       {
         "name": "erc2535-hardhat",
         "herf": "https://github.com/xxxijustwei/erc2535-hardhat",
-        "techstack": ["Hardhat v3", "Solidity", "Viem"],
+        "tags": ["Hardhat v3", "Solidity", "Viem"],
         "descriptions": [
-          "这是一个基于 EIP-2535 钻石标准的生产级智能合约实现，采用现代化技术栈构建",
+          "这是一个基于 EIP-2535 钻石标准的生产级智能合约 Hardhat v3 实现，采用现代化技术栈构建",
           "该项目解决了以太坊智能合约 24KB 字节码限制问题，通过钻石模式实现了模块化、可升级的智能合约架构"
         ]
       },
       {
         "name": "Pathfinding",
         "herf": "https://github.com/xxxijustwei/Pathfinding",
-        "techstack": ["Java", "Bukkit", "Spigot"],
+        "tags": [
+          "Java",
+          "Bukkit",
+          "Maven",
+          "Spigot",
+          "A* Algorithm",
+          "3D Game"
+        ],
         "descriptions": [
           "这是一个在 Minecraft 3D 游戏环境中实现的高性能 A* 寻路算法系统",
           "该项目专注于解决三维空间中的复杂路径规划问题，为游戏实体提供智能化的自动导航能力"

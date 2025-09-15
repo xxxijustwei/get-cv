@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { Building2 } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { BadgeList } from "../bage-list";
 import { Badge } from "../ui/badge";
 import { Section } from "../ui/section";
 
@@ -115,39 +116,12 @@ export const CompanyLink = ({ company, link }: CompanyProps) => {
   );
 };
 
-interface BadgeListProps {
-  className?: string;
-  badges: string[];
-}
-
-export const BadgeList = ({ className, badges }: BadgeListProps) => {
-  if (badges.length === 0) return null;
-
-  return (
-    <ul
-      className={cn("inline-flex flex-wrap list-none gap-1 p-0", className)}
-      aria-label="Technologies used"
-    >
-      {badges.map((badge) => (
-        <li key={badge}>
-          <Badge
-            variant="secondary"
-            className="align-middle text-xs print:px-1 print:py-1 print:text-[10px] print:leading-tight"
-          >
-            {badge}
-          </Badge>
-        </li>
-      ))}
-    </ul>
-  );
-};
-
 interface WorkPeriodProps {
   start: string;
   end?: string;
 }
 
-export const WorkPeriod = ({ start, end }: WorkPeriodProps) => {
+const WorkPeriod = ({ start, end }: WorkPeriodProps) => {
   return (
     <div
       className="min-w-fit text-sm tabular-nums text-gray-500"
