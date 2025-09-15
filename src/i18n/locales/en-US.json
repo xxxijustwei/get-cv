@@ -133,6 +133,44 @@
     ],
     "projects": [
       {
+        "name": "ednesdayW",
+        "herf": "https://github.com/xxxijustwei/ednesdayW",
+        "tags": [
+          "Next.js",
+          "Tailwind CSS",
+          "Radix UI",
+          "Shadcn UI",
+          "motion",
+          "Vitest"
+        ],
+        "descriptions": [
+          "ednesdayW: A high-performance headless UI component library built with React 19 and Next.js 15, offering a variety of reusable components.",
+          "Built on Radix UI for accessibility foundations and styled with Tailwind CSS 4.0 for a highly customizable design system.",
+          "Supports multiple variants and size configurations, full style customization, and slot patterns to meet diverse design requirements."
+        ]
+      },
+      {
+        "name": "Gabriel AI",
+        "herf": "https://github.com/xxxijustwei/gabriel-web",
+        "tags": [
+          "Next.js",
+          "Tailwind CSS",
+          "Nest.js",
+          "zod",
+          "AI SDK",
+          "Supabase",
+          "Drizzle ORM",
+          "Vercel",
+          "Binance API"
+        ],
+        "descriptions": [
+          "Gabriel AI is a real-time cryptocurrency data analytics platform built with Next.js and Nest.js.",
+          "Integrated Binance Exchange API to deliver intelligent market analysis services.",
+          "Supports spot and futures market flow comparison, anomaly detection, and trend forecasting",
+          "Users can perform real-time AI-driven data analysis via the frontend chat interface and automatically generate scheduled market analysis reports."
+        ]
+      },
+      {
         "name": "Crypto Invoice",
         "herf": "https://github.com/xxxijustwei/crypto-invoice",
         "tags": [
@@ -146,34 +184,10 @@
           "Puppeteer"
         ],
         "descriptions": [
-          "A fast, secure, and elegant cryptocurrency invoice generation solution for freelancers, businesses, and entrepreneurs.",
-          "Uses Puppeteer to generate Crypto Invoice PDFs, aiming to simplify and standardize the invoicing process for crypto transactions."
-        ]
-      },
-      {
-        "name": "Gabriel AI",
-        "herf": "https://github.com/xxxijustwei/gabriel-web",
-        "tags": [
-          "Next.js",
-          "Tailwind CSS",
-          "Nest.js",
-          "zod",
-          "AI SDK",
-          "Supabase",
-          "Drizzle ORM"
-        ],
-        "descriptions": [
-          "Gabriel AI is an AI-powered application built with Next.js and Nest.js.",
-          "Designed for exchange data analysis, focusing on token fund flow tracking and supporting scheduled analysis tasks."
-        ]
-      },
-      {
-        "name": "ednesdayW",
-        "herf": "https://github.com/xxxijustwei/ednesdayW",
-        "tags": ["Next.js", "Tailwind CSS", "Radix UI", "Shadcn UI"],
-        "descriptions": [
-          "WednesdayW is a headless UI component library project built on top of Radix UI.",
-          "Provides flexible and customizable frontend component solutions, ensuring accessibility and adaptability."
+          "A full-stack cryptocurrency invoice generation and management system built with Next.js 15.",
+          "Supports multi-chain and multi-currency payments, covering the entire workflow from invoice creation to PDF export.",
+          "Provides freelancers, businesses, and startups with a fast, secure, and elegant solution for crypto invoicing.",
+          "Implemented server-side rendering with Puppeteer to enable high-quality PDF invoice export."
         ]
       },
       {
@@ -182,7 +196,17 @@
         "tags": ["Hardhat v3", "Solidity", "Viem"],
         "descriptions": [
           "A production-grade smart contract implementation based on the EIP-2535 Diamond Standard, built with a modern tech stack.",
-          "Solves Ethereum’s 24KB contract size limitation by using the Diamond Pattern to enable modular, upgradeable smart contract architecture."
+          "Implemented a modular and upgradeable smart contract architecture using the Multi-Facet Proxy pattern (Diamond Standard)."
+        ]
+      },
+      {
+        "name": "create2-benchmark",
+        "herf": "https://github.com/xxxijustwei/create2-benchmark",
+        "tags": ["Rust", "Go", "Bun", "Metal API", "EVM", "Tron"],
+        "descriptions": [
+          "A high-performance CREATE2 address generation engine designed for payment projects, enabling fast wallet address generation on EVM or Tron networks with specific suffixes.",
+          "Implemented a multi-language performance benchmarking framework (Rust, Go, JavaScript/TypeScript).",
+          "Achieves 50 million address predictions in 5.4 seconds (Rust GPU version)."
         ]
       },
       {

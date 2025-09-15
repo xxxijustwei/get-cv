@@ -105,8 +105,10 @@
       "Hono",
       "Solidity",
       "Tailwind CSS",
+      "motion",
       "Radix UI",
       "Shadcn UI",
+      "Vitest",
       "Supabase",
       "Upstash",
       "PostgreSQL",
@@ -133,6 +135,44 @@
     ],
     "projects": [
       {
+        "name": "ednesdayW",
+        "herf": "https://github.com/xxxijustwei/ednesdayW",
+        "tags": [
+          "Next.js",
+          "Tailwind CSS",
+          "Radix UI",
+          "Shadcn UI",
+          "motion",
+          "Vitest"
+        ],
+        "descriptions": [
+          "ednesdayW 基于 React 19 和 Next.js 15 构建的高性能无头UI组件库，提供多种可复用组件",
+          "采用 Radix UI 作为底层无障碍基础，使用 Tailwind CSS 4.0 实现高度可定制的样式系统",
+          "组件支持支持多种变体和尺寸配置，可完全的样式定制和插槽模式，满足不同设计需求"
+        ]
+      },
+      {
+        "name": "Gabriel AI",
+        "herf": "https://github.com/xxxijustwei/gabriel-web",
+        "tags": [
+          "Next.js",
+          "Tailwind CSS",
+          "Nest.js",
+          "zod",
+          "AI SDK",
+          "Supabase",
+          "Drizzle ORM",
+          "Vercel",
+          "Binance API"
+        ],
+        "descriptions": [
+          "Gabriel AI 是一个基于 Next.js 和 Nest.js 的开发的加密货币实时数据分析 AI 平台",
+          "集成币安交易所 API 为用户提供智能化的市场分析服务",
+          "支持现货与合约市场资金流向对比分析、异常检测、趋势预测等功能",
+          "用户可通过前端 Chat 实时进行 AI 数据分析，同时可以通过定时任务自动生成市场分析报告"
+        ]
+      },
+      {
         "name": "Crypto Invoice",
         "herf": "https://github.com/xxxijustwei/crypto-invoice",
         "tags": [
@@ -146,34 +186,10 @@
           "Puppeteer"
         ],
         "descriptions": [
-          "该项目为自由职业者、企业和创业者提供了一个快速、安全、美观的加密货币发票生成解决方案",
-          "该项目使用 Puppeteer 生成Crypto Invoice PDF, 旨在简化和标准化加密货币交易的发票流程"
-        ]
-      },
-      {
-        "name": "Gabriel AI",
-        "herf": "https://github.com/xxxijustwei/gabriel-web",
-        "tags": [
-          "Next.js",
-          "Tailwind CSS",
-          "Nest.js",
-          "zod",
-          "AI SDK",
-          "Supabase",
-          "Drizzle ORM"
-        ],
-        "descriptions": [
-          "Gabriel AI 是一个基于 Next.js 和 Nest.js 的 AI 应用",
-          "⽤作交易所的数据分析，主要提供代币资⾦流向分析等功能。⽀持定时任务分析"
-        ]
-      },
-      {
-        "name": "ednesdayW",
-        "herf": "https://github.com/xxxijustwei/ednesdayW",
-        "tags": ["Next.js", "Tailwind CSS", "Radix UI", "Shadcn UI"],
-        "descriptions": [
-          "WednesdayW 是一个基于 Radix UI 的 headless UI 组件库项目",
-          "提供灵活可定制的前端组件解决方案，确保组件的可访问性和灵活性"
+          "该项目基于 Next.js 15 构建的全栈加密货币发票生成和管理系统",
+          "支持多链多币种支付，实现了从发票创建到 PDF 导出的完整业务流程",
+          "为自由职业者、企业和创业者提供了一个快速、安全、美观的加密货币发票生成解决方案",
+          "使用 Puppeteer 实现服务端渲染，支持高质量 PDF 发票导出"
         ]
       },
       {
@@ -182,7 +198,17 @@
         "tags": ["Hardhat v3", "Solidity", "Viem"],
         "descriptions": [
           "这是一个基于 EIP-2535 钻石标准的生产级智能合约 Hardhat v3 实现，采用现代化技术栈构建",
-          "该项目解决了以太坊智能合约 24KB 字节码限制问题，通过钻石模式实现了模块化、可升级的智能合约架构"
+          "该项目采用多面代理 (Multi-FacetProxy) 模式，通过钻石模式实现了模块化、可升级的智能合约架构"
+        ]
+      },
+      {
+        "name": "create2-benchmark",
+        "herf": "https://github.com/xxxijustwei/create2-benchmark",
+        "tags": ["Rust", "Go", "Bun", "Metal API", "EVM", "Tron"],
+        "descriptions": [
+          "为支付项目设计并实现的高性能 CREATE2 地址生成引擎，用于在 EVM 或 Tron 网络上快速生成具有特定后缀的钱包地址",
+          "实现了多语言性能基准测试框架 (Rust、Go、JavaScript/TypeScript)",
+          "完成 5000 万次地址预测仅需 5.4 秒 (Rust GPU 版本)"
         ]
       },
       {
