@@ -12,7 +12,7 @@ export const Summary = () => {
         {tCommon("summary")}
       </h2>
       <div
-        className="text-pretty font-mono text-sm text-foreground/80 print:text-[12px] whitespace-pre-line"
+        className="text-pretty font-mono text-sm text-foreground/80 whitespace-pre-line"
         aria-labelledby="about-section"
       >
         {t("summary")}

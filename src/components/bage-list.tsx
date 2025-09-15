@@ -16,10 +16,7 @@ export const BadgeList = ({ className, badges }: BadgeListProps) => {
     >
       {badges.map((badge) => (
         <li key={badge}>
-          <Badge
-            variant="secondary"
-            className="align-middle text-xs print:px-1 print:py-1 print:text-[10px] print:leading-tight"
-          >
+          <Badge variant="secondary" className="align-middle text-xs">
             {badge}
           </Badge>
         </li>

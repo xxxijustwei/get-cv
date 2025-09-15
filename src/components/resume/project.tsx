@@ -16,19 +16,10 @@ export const Project = () => {
   const tCommon = useTranslations("common");
   const projects = t.raw("projects");
   return (
-    <Section className="print-force-new-page scroll-mb-16 print:space-y-4 print:pt-0">
+    <Section>
       <h2 className="text-xl font-bold" id="side-projects">
         {tCommon("projects")}
       </h2>
-      {/* <div
-        className="grid grid-cols-1 gap-3 sm:grid-cols-2"
-        role="feed"
-        aria-labelledby="side-projects"
-      >
-        {projects.map((project: ProjectItemProps) => (
-          <ProjectItem key={project.name} {...project} />
-        ))}
-      </div> */}
       <Masonry
         items={projects}
         render={({ data }: { data: ProjectItemProps }) => (
@@ -66,7 +57,7 @@ const ProjectItem = ({ name, herf, tags, descriptions }: ProjectItemProps) => {
             {name}
           </a>
         </div>
-        <div className="text-secondary-foreground text-pretty text-sm">
+        <div className="text-secondary-foreground text-pretty text-xs">
           <ul>
             {descriptions.map((description, index) => (
               <li

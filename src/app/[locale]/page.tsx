@@ -8,6 +8,7 @@ import { Header } from "@/components/resume/header";
 import { Project } from "@/components/resume/project";
 import { Skills } from "@/components/resume/skills";
 import { Summary } from "@/components/resume/summary";
+import { Watermark } from "@/components/resume/watermark";
 import { WorkExperience } from "@/components/resume/work-experience";
 import { Separator } from "@/components/ui/separator";
 import { useTranslations } from "next-intl";
@@ -60,7 +61,7 @@ const Page = () => {
 
   return (
     <main
-      className="container relative mx-auto scroll-my-12 overflow-auto px-4 pt-12 pb-4 print:p-11 md:p-16"
+      className="container relative mx-auto scroll-my-12 overflow-auto max-w-2xl px-4 sm:px-0 py-12 pb-4 sm:py-16 print:py-11!"
       id="main-content"
     >
       <div className="absolute top-0 left-0 right-0 print:hidden">
@@ -75,7 +76,7 @@ const Page = () => {
       </div>
 
       <section
-        className="mx-auto w-full max-w-2xl space-y-4 bg-background"
+        className="mx-auto w-full max-w-2xl space-y-4"
         aria-label="Resume Content"
       >
         <Header />
@@ -90,6 +91,7 @@ const Page = () => {
           <Education />
           <Separator />
           <Project />
+          <Watermark />
         </div>
       </section>
 
