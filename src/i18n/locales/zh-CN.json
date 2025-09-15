@@ -20,7 +20,8 @@
     "work-experience": "工作经历",
     "skills": "技术栈",
     "education": "教育经历",
-    "projects": "个人项目"
+    "projects": "个人项目",
+    "present": "至今"
   },
   "resume": {
     "name": "邹燊炜",
@@ -93,6 +94,71 @@
               "兼容以太坊、BSC、Polygon 等主网及测试网",
               "采用事件驱动架构，支持对交易、区块、合约、日志等事件灵活订阅",
               "实时捕获交易、日志与区块信息，低延迟写入索引，易于接入新的链和自定义监听策略"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "X Winner Labs",
+        "link": "https://linktr.ee/x_winner",
+        "region": "Global",
+        "officeMode": "远程办公",
+        "start": "2022.09",
+        "end": "2023.04",
+        "jobTitle": "前端 & 智能合约工程师",
+        "techstack": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "Solidity",
+          "Chainlink VRF",
+          "Hardhat",
+          "ethers.js",
+          "Viem",
+          "Wagmi",
+          "Docker"
+        ],
+        "projects": [
+          {
+            "name": "X Winner",
+            "role": "前端 & 智能合约工程师",
+            "description": [
+              "X WINNER 是一个完全去中心化、完全运行在区块链上的 GameFi 游戏平台",
+              "基于 ERC-3525 协议设计并实现衍生品交易智能合约，支持多种游戏玩法与收益分配",
+              "编写并部署核心合约，集成 Chainlink VRF 实现可验证随机数，保障游戏公平性",
+              "使用 Next.js 14 (App Router) 构建高性能、响应式 DApp 前端，优化交互体验",
+              "完成在 BSC、Arbitrum、Polygon 主网与测试网的多链部署与调试"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "樱游互娱网络科技有限公司",
+        "link": "",
+        "region": "厦门",
+        "officeMode": "现场办公",
+        "start": "2021.07",
+        "end": "2022.09",
+        "jobTitle": "Java开发实习生 → Java开发工程师",
+        "techstack": [
+          "Java",
+          "MySQL",
+          "Redis",
+          "Gitlab CI/CD",
+          "Docker",
+          "Bukkit",
+          "Spigot",
+          "Bungee"
+        ],
+        "projects": [
+          {
+            "name": "EternalLand",
+            "role": "Java开发工程师",
+            "description": [
+              "负责开发大型多人在线 PvE 竞技游戏服务器，支持数千名玩家同时在线对战",
+              "实现了完整的游戏核心系统，包括战斗机制、技能系统、装备强化、等级成长体系",
+              "设计并开发了高性能的匹配系统和排行榜功能，优化了并发处理能力",
+              "基于Bukkit/Spigot框架构建插件化架构，提高了系统的可扩展性和可维护性"
             ]
           }
         ]

@@ -1,11 +1,8 @@
 "use client";
 
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { cn } from "@/lib/utils";
 import { Building2 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { BadgeList } from "../bage-list";
-import { Badge } from "../ui/badge";
 import { Section } from "../ui/section";
 
 export const WorkExperience = () => {
@@ -122,12 +119,13 @@ interface WorkPeriodProps {
 }
 
 const WorkPeriod = ({ start, end }: WorkPeriodProps) => {
+  const t = useTranslations("common");
   return (
     <div
       className="min-w-fit text-sm tabular-nums text-gray-500"
       aria-label={`Employment period: ${start} to ${end ?? "Present"}`}
     >
-      {start} - {end ?? "Present"}
+      {start} - {end ?? t("present")}
     </div>
   );
 };

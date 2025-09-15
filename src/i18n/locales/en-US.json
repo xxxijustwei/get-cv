@@ -20,7 +20,8 @@
     "work-experience": "Work Experience",
     "skills": "Skills",
     "education": "Education",
-    "projects": "Side Projects"
+    "projects": "Side Projects",
+    "present": "Present"
   },
   "resume": {
     "name": "SHENWEI ZOU",
@@ -93,6 +94,66 @@
               "Supports Ethereum, BSC, Polygon mainnets and testnets.",
               "Implemented an event-driven architecture, enabling flexible subscription to transactions, blocks, contracts, and log events.",
               "Real-time capture of transactions, logs, and block data with low-latency indexing; easily extensible to new chains and custom monitoring strategies."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "X Winner Labs",
+        "link": "https://linktr.ee/x_winner",
+        "region": "Global",
+        "officeMode": "Remote",
+        "start": "2022.09",
+        "end": "2023.04",
+        "jobTitle": "Frontend & Smart Contract Engineer",
+        "techstack": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "Solidity",
+          "Chainlink VRF"
+        ],
+        "projects": [
+          {
+            "name": "X Winner",
+            "role": "Frontend & Smart Contract Engineer",
+            "description": [
+              "X WINNER is a decentralized, fully on-chain Gamefi game platform.",
+              "Smart Contract based on ERC-3525 protocol to implement derivative trading contracts and support multiple game and income distribution mechanisms.",
+              "Write and deploy core smart contracts, integrate Chainlink VRF to generate fair random numbers.",
+              "Build the Dapp frontend with Next.js 14 (App Router).",
+              "The project is deployed on BSC, Arbitrum, Polygon Mainnet/Testnet."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "Sakura Game",
+        "link": "",
+        "region": "Xiamen",
+        "officeMode": "On-site",
+        "start": "2021.07",
+        "end": "2022.09",
+        "jobTitle": "Java Development Intern → Java Development Engineer",
+        "techstack": [
+          "Java",
+          "MySQL",
+          "Redis",
+          "Gitlab CI/CD",
+          "Docker",
+          "Bukkit",
+          "Spigot",
+          "Bungee"
+        ],
+        "projects": [
+          {
+            "name": "EternalLand",
+            "role": "Java Development Engineer",
+            "description": [
+              "Developed large-scale multiplayer online PvE combat game server, supporting thousands of concurrent players in real-time battles",
+              "Implemented comprehensive game core systems including combat mechanics, skill system, equipment enhancement, and player progression system",
+              "Designed and developed high-performance matchmaking system and leaderboard functionality with optimized concurrent processing capabilities",
+              "Built plugin-based architecture using Bukkit/Spigot framework, enhancing system scalability and maintainability"
             ]
           }
         ]
