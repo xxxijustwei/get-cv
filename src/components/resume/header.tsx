@@ -8,7 +8,7 @@ import { Icon } from "../icons";
 export const Header = () => {
   const t = useTranslations("resume");
   return (
-    <header className="flex items-center justify-between gap-4">
+    <header className="flex items-center justify-between gap-2 sm:gap-4">
       <div className="flex-1 space-y-1.5">
         <h1 className="text-2xl font-bold" id="resume-name">
           {t("name")}
@@ -22,7 +22,7 @@ export const Header = () => {
         />
       </div>
 
-      <div className="aspect-[99/128] rounded-lg w-[128px] overflow-hidden">
+      <div className="aspect-[99/128] rounded-lg w-28 sm:w-32 min-w-20 overflow-hidden">
         <Image
           src="/avatar.png"
           alt={`${t("name")}'s profile picture`}
@@ -110,7 +110,7 @@ const ContactButtons = ({
           key={social.label}
           href={social.url}
           icon={social.icon}
-          label={social.url}
+          label={social.label}
           content={social.url}
         />
       ))}
@@ -127,14 +127,16 @@ interface SocialLinkProps {
 
 function SocialLink({ label, content, href, icon }: SocialLinkProps) {
   return (
-    <div className="flex items-center gap-x-1">
-      <Icon id={icon} className="size-4" />
+    <div className="flex items-start gap-x-1">
+      <div className="py-0.5">
+        <Icon id={icon} className="size-4" />
+      </div>
       <a
         href={href}
         aria-label={label}
         target="_blank"
         rel="noopener noreferrer"
-        className=""
+        className="break-all"
       >
         {content}
       </a>

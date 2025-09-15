@@ -1,3 +1,4 @@
+import { useMediaQuery } from "@/hooks/use-media-query";
 import { MasonryProps } from "masonic";
 import { useTranslations } from "next-intl";
 import dynamic from "next/dynamic";
@@ -12,9 +13,11 @@ const Masonry: ComponentType<MasonryProps<ProjectItemProps>> = dynamic(
 );
 
 export const Project = () => {
+  const isMobile = useMediaQuery("(max-width: 768px)");
   const t = useTranslations("resume");
   const tCommon = useTranslations("common");
   const projects = t.raw("projects");
+
   return (
     <Section>
       <h2 className="text-xl font-bold" id="side-projects">
@@ -25,7 +28,7 @@ export const Project = () => {
         render={({ data }: { data: ProjectItemProps }) => (
           <ProjectItem {...data} />
         )}
-        columnCount={2}
+        columnCount={isMobile ? 1 : 2}
         columnGutter={12}
         rowGutter={12}
         overscanBy={10}

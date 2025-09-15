@@ -113,9 +113,9 @@ const ShadcnIcon = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      stroke="#000"
       strokeLinecap="round"
       strokeWidth="4.48"
+      stroke="currentColor"
       d="m27.76 16.56l-11.2 11.2m8.96-23.52L4.24 25.52"
     />
   </svg>
