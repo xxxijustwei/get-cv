@@ -1,12 +1,12 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Button } from "@/components/wed/button";
 import { LANGUAGES, usePathname, useRouter } from "@/i18n/routing";
 import { CheckIcon, ChevronDownIcon, EarthIcon } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
