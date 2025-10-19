@@ -1,0 +1,332 @@
+{
+  "locale": {
+    "en-US": "🇺🇸 English",
+    "zh-CN": "🇨🇳 简体中文"
+  },
+  "command_menu": {
+    "press": "按住",
+    "to_open_the_command_menu": "打开命令菜单",
+    "type_placeholder": "输入命令或搜索...",
+    "actions": "操作",
+    "links": "链接",
+    "print": "打印",
+    "personal_website": "个人网站",
+    "contact_with_email": "通过邮箱联系",
+    "contact_with_wechat": "通过微信联系",
+    "no_results_found": "当前是空的哦"
+  },
+  "common": {
+    "summary": "个人简介",
+    "work-experience": "工作经历",
+    "skills": "技术栈",
+    "education": "教育经历",
+    "projects": "个人项目",
+    "present": "至今"
+  },
+  "resume": {
+    "name": "Alice ([!]简历模板)",
+    "avatar": "https://github.com/xxxijustwei.png",
+    "location": "上海, 中国",
+    "locationUrl": "https://www.google.com/maps/place/Shanghai,+China",
+    "personalWebsiteUrl": "https://alice.dev",
+    "social": {
+      "email": "me@alice.dev",
+      "wechat": "alice-wechat",
+      "social": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/xxxijustwei",
+          "icon": "Github"
+        }
+      ]
+    },
+    "summary": "专注于 React / Next.js 生态的全栈前端工程师，拥有海外初创公司经验，擅长产品从 0→1 架构设计与前端性能优化。熟悉边缘渲染、Server Actions、组件体系设计与 DX 工程化建设。追求可维护、高性能、具备用户价值的前端产品。",
+    "works": [
+      {
+        "company": "FlowSync Labs",
+        "link": "https://flowsync.io",
+        "region": "San Francisco, USA (Remote)",
+        "officeMode": "远程办公",
+        "start": "2023.08",
+        "end": "至今",
+        "jobTitle": "Senior Frontend Engineer → Frontend Architect",
+        "techstack": [
+          "Next.js 15",
+          "React 19",
+          "TypeScript",
+          "Server Actions",
+          "App Router",
+          "TanStack Query",
+          "Zustand",
+          "Tailwind CSS 4",
+          "Shadcn UI",
+          "Radix UI",
+          "tRPC",
+          "Prisma",
+          "PostgreSQL",
+          "Redis",
+          "Edge Runtime",
+          "Vercel",
+          "Cloudflare",
+          "Playwright",
+          "Vitest",
+          "Storybook",
+          "MSW",
+          "TurboRepo",
+          "PNPM",
+          "Docker",
+          "GitHub Actions"
+        ],
+        "projects": [
+          {
+            "name": "PulseBoard",
+            "role": "Frontend Architect",
+            "description": [
+              "PulseBoard 是一个为初创团队构建的实时数据与协作平台，提供任务跟踪、AI 汇总与性能监控功能。",
+              "负责从 0→1 构建前端架构，基于 Next.js 15 + RSC + Server Actions 实现 BFF 层，显著减少客户端包体积（-34%）。",
+              "构建自定义可插拔组件系统（Radix + Shadcn），提高了复用率和主题一致性。",
+              "实现团队级权限控制与多租户隔离方案，前端安全性与可维护性提升明显。"
+            ]
+          },
+          {
+            "name": "StreamDesk",
+            "role": "Tech Lead",
+            "description": [
+              "StreamDesk 是一款面向跨境创业公司的财务和沟通一体化平台，提供实时交易监控、会计自动化与汇率同步。",
+              "通过 Edge Functions 实现低延迟数据同步，报表渲染时间降低 40%。",
+              "引入 Prisma + PostgreSQL + Redis 组合，实现多租户账本隔离与事务安全性保证。",
+              "主导微前端架构迁移及 Turborepo 工作区整合，将构建时间从 5 分钟降至 1.8 分钟。"
+            ]
+          },
+          {
+            "name": "EchoSpaces",
+            "role": "Observability Engineer",
+            "description": [
+              "内部可观测性平台，为全线 SaaS 产品提供统一的性能指标、日志追踪与错误聚合。",
+              "整合 Sentry 与 OpenTelemetry，支持 RSC trace 和 edge function profiling。",
+              "开发前端监控 SDK，通过 WebSocket 实现实时性能回放功能。",
+              "上线后月均错误率下降 41%，提高了用户留存率与团队调试效率。"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "NovaForge",
+        "link": "https://novaforge.dev",
+        "region": "Berlin, Germany (Remote)",
+        "officeMode": "远程办公",
+        "start": "2021.04",
+        "end": "2023.07",
+        "jobTitle": "Frontend Engineer",
+        "techstack": [
+          "Next.js 13/14",
+          "React",
+          "TypeScript",
+          "NextAuth",
+          "Stripe",
+          "GraphQL",
+          "Apollo Client",
+          "Tailwind CSS",
+          "Cypress",
+          "Jest",
+          "Vercel",
+          "Supabase"
+        ],
+        "projects": [
+          {
+            "name": "NovaOS",
+            "role": "Frontend Developer",
+            "description": [
+              "NovaOS 是为远程团队打造的多功能控制台，整合工单、项目管理和监控模块。",
+              "基于 streaming SSR 实现渐进式渲染与 Suspense 数据流，首屏性能提升 45%。",
+              "构建组件抽象层，将多个子团队组件统一为一致风格。",
+              "主导 E2E 测试体系（Cypress + MSW），端到端回归稳定率提升 30%。"
+            ]
+          },
+          {
+            "name": "PayNova",
+            "role": "Frontend Engineer",
+            "description": [
+              "欧洲市场面向中小创业者的订阅支付 SaaS，支持国际化结算与税务自动化。",
+              "整合 Stripe 与 SEPA，构建统一支付服务层，保障不同币种精确换算。",
+              "前端实现动态结算 UI（React Hook Form + Zod Schema），提升支付体验一致性。",
+              "用户增长期月均 GMV 提升 9.3%，平台转化率提升 12%。"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "Breeze Analytics",
+        "link": "https://breezeanalytics.io",
+        "region": "Toronto, Canada",
+        "officeMode": "混合办公",
+        "start": "2019.07",
+        "end": "2021.03",
+        "jobTitle": "Frontend Developer",
+        "techstack": [
+          "React 17",
+          "Redux Toolkit",
+          "React Router",
+          "Styled Components",
+          "Webpack",
+          "Node.js",
+          "Express",
+          "Nginx"
+        ],
+        "projects": [
+          {
+            "name": "BreezeDash",
+            "role": "Frontend Developer",
+            "description": [
+              "BreezeDash 是一款数据可视化 SaaS 平台，聚合 IoT 与业务指标数据。",
+              "负责仪表盘渲染性能优化与异步数据缓存机制。",
+              "使用虚拟滚动与增量渲染实现 10 万+ 条记录的流畅展示，渲染延迟降低 55%。",
+              "基于 Redux Toolkit 重构状态层，提升代码可维护性与可测试性。"
+            ]
+          }
+        ]
+      }
+    ],
+    "skills": [
+      "React 19",
+      "Next.js 15",
+      "Server Components",
+      "Server Actions",
+      "TypeScript",
+      "Tailwind CSS 4",
+      "Shadcn UI",
+      "Radix UI",
+      "TanStack Query",
+      "Zustand",
+      "Redux Toolkit",
+      "tRPC",
+      "Prisma",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "Edge Runtime",
+      "Vercel",
+      "Cloudflare",
+      "Playwright",
+      "Vitest",
+      "Cypress",
+      "Storybook",
+      "MSW",
+      "OpenAPI",
+      "NextAuth",
+      "Clerk",
+      "Stripe",
+      "TurboRepo",
+      "Nx",
+      "Docker",
+      "GitHub Actions"
+    ],
+    "education": [
+      {
+        "school": "南加州大学",
+        "major": "计算机科学",
+        "start": "2015",
+        "end": "2019"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Orion UI",
+        "herf": "https://github.com/haian-dev/orion-ui",
+        "tags": [
+          "React",
+          "TypeScript",
+          "Radix UI",
+          "Tailwind",
+          "Storybook"
+        ],
+        "descriptions": [
+          "Orion UI 是一款基于 React 19 与 Radix UI 构建的无头组件库，旨在帮助团队快速构建一致且可访问的设计系统。",
+          "实现组件属性驱动的变体机制与动态主题系统，支持品牌级定制与原子化构建。",
+          "提供 Storybook + Vitest 集成测试体系，保证 UI 组件在 SSR 与 RSC 环境下的稳定渲染。",
+          "目前已被 5 个独立项目采用，并集成到团队内部设计语言体系。"
+        ]
+      },
+      {
+        "name": "next-accelerator",
+        "herf": "https://github.com/haian-dev/next-accelerator",
+        "tags": [
+          "Next.js",
+          "Server Actions",
+          "tRPC",
+          "Prisma",
+          "TurboRepo"
+        ],
+        "descriptions": [
+          "Next Accelerator 是一个开箱即用的企业级 Next.js 脚手架，面向初创公司快速 MVP 开发。",
+          "内置用户认证（NextAuth + Clerk）、RBAC 权限控制、审计日志与国际化。",
+          "整合 TurboRepo 与 CI/CD pipeline，支持单仓多环境部署。",
+          "采用 tRPC 与 Server Actions 实现前后端同构调用，极大减少 API 维护负担。"
+        ]
+      },
+      {
+        "name": "LedgerFlow",
+        "herf": "https://github.com/haian-dev/ledger-flow",
+        "tags": [
+          "Next.js",
+          "React",
+          "TanStack Table",
+          "Zod",
+          "CSV/Excel"
+        ],
+        "descriptions": [
+          "LedgerFlow 是一款开源财务流水与发票管理系统，面向自由职业者与小型企业。",
+          "实现百万级数据的虚拟滚动表格，支持 CSV、Excel、PDF 多格式导入导出。",
+          "整合 Zod schema 校验与 react-hook-form 实现强类型数据验证。",
+          "内置异常检测与自定义规则引擎，支持自动分类、标注与核对。"
+        ]
+      },
+      {
+        "name": "snap-form",
+        "herf": "https://github.com/haian-dev/snap-form",
+        "tags": [
+          "React Hook Form",
+          "Zod",
+          "RSC",
+          "Server Actions"
+        ],
+        "descriptions": [
+          "Snap Form 是一个高性能表单引擎，支持动态字段加载、渐进验证与服务端回填。",
+          "利用 React Server Components + Server Actions 将验证逻辑下放服务端，实现零客户端开销。",
+          "内置可配置表单 DSL，可在管理端直接生成复杂表单结构。",
+          "被多个 SaaS 项目采用，用于快速构建设置面板与注册流程。"
+        ]
+      },
+      {
+        "name": "edge-cache-kit",
+        "herf": "https://github.com/haian-dev/edge-cache-kit",
+        "tags": [
+          "Edge Runtime",
+          "Cloudflare",
+          "Vercel",
+          "KV/Cache"
+        ],
+        "descriptions": [
+          "Edge Cache Kit 是一个针对边缘函数优化的缓存工具集，用于 ISR、Tag Revalidation 和动态回源控制。",
+          "提供智能缓存策略与 LRU 回收机制，支持热键保护与自动回填。",
+          "在 Cloudflare Workers 与 Vercel Edge Functions 上稳定运行，命中率达 92%。"
+        ]
+      },
+      {
+        "name": "openapi-safe-client",
+        "herf": "https://github.com/haian-dev/openapi-safe-client",
+        "tags": [
+          "OpenAPI",
+          "TypeScript",
+          "Zod",
+          "MSW"
+        ],
+        "descriptions": [
+          "openapi-safe-client 用于从 OpenAPI 规范生成类型安全的 TypeScript 客户端与 Zod 校验器。",
+          "支持请求 Mock（MSW）、Schema 合并与契约测试，实现 CI 自动化接口校验。",
+          "为团队统一 API 类型体系，减少 80% 接口兼容性问题。"
+        ]
+      }
+    ]
+  }
+}

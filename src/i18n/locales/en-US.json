@@ -1,0 +1,332 @@
+{
+  "locale": {
+    "en-US": "🇺🇸 English",
+    "zh-CN": "🇨🇳 简体中文"
+  },
+  "command_menu": {
+    "press": "Press",
+    "to_open_the_command_menu": "to open the command menu",
+    "type_placeholder": "Type a command or search...",
+    "actions": "Actions",
+    "links": "Links",
+    "print": "Print",
+    "personal_website": "Personal Website",
+    "contact_with_email": "Contact with email",
+    "contact_with_wechat": "Contact with wechat",
+    "no_results_found": "No results found"
+  },
+  "common": {
+    "summary": "Summary",
+    "work-experience": "Work Experience",
+    "skills": "Skills",
+    "education": "Education",
+    "projects": "Side Projects",
+    "present": "Present"
+  },
+  "resume": {
+    "name": "Alice ([!] Resume Template)",
+    "avatar": "https://github.com/xxxijustwei.png",
+    "location": "Shanghai, China",
+    "locationUrl": "https://www.google.com/maps/place/Shanghai,+China",
+    "personalWebsiteUrl": "https://alice.dev",
+    "social": {
+      "email": "me@alice.dev",
+      "wechat": "alice-wechat",
+      "social": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/xxxijustwei",
+          "icon": "Github"
+        }
+      ]
+    },
+    "summary": "Frontend engineer focused on the React / Next.js ecosystem, experienced in building and scaling products for international startups. Skilled in system design, RSC/Server Actions architecture, performance optimization, and developer experience (DX) tooling. Passionate about crafting maintainable, high-performance web applications that balance technical excellence with real user impact.",
+    "works": [
+      {
+        "company": "FlowSync Labs",
+        "link": "https://flowsync.io",
+        "region": "San Francisco, USA (Remote)",
+        "officeMode": "Remote",
+        "start": "2023.08",
+        "end": "Present",
+        "jobTitle": "Senior Frontend Engineer → Frontend Architect",
+        "techstack": [
+          "Next.js 15",
+          "React 19",
+          "TypeScript",
+          "Server Actions",
+          "App Router",
+          "TanStack Query",
+          "Zustand",
+          "Tailwind CSS 4",
+          "Shadcn UI",
+          "Radix UI",
+          "tRPC",
+          "Prisma",
+          "PostgreSQL",
+          "Redis",
+          "Edge Runtime",
+          "Vercel",
+          "Cloudflare",
+          "Playwright",
+          "Vitest",
+          "Storybook",
+          "MSW",
+          "TurboRepo",
+          "PNPM",
+          "Docker",
+          "GitHub Actions"
+        ],
+        "projects": [
+          {
+            "name": "PulseBoard",
+            "role": "Frontend Architect",
+            "description": [
+              "PulseBoard is a real-time analytics and collaboration platform for startups, combining task tracking, AI summaries, and team dashboards.",
+              "Architected the frontend from scratch using Next.js 15 (RSC + Server Actions) as a lightweight BFF layer, reducing bundle size by 34%.",
+              "Built a modular component system (Radix + Shadcn) supporting theming and multi-tenant branding.",
+              "Designed fine-grained access control and workspace isolation for enterprise-grade security and maintainability."
+            ]
+          },
+          {
+            "name": "StreamDesk",
+            "role": "Tech Lead",
+            "description": [
+              "Led development of a real-time accounting and CRM platform for cross-border startups, integrating AI-powered reconciliation and analytics.",
+              "Implemented edge-deployed data sync using Prisma + PostgreSQL + Redis, cutting report latency by 40%.",
+              "Migrated the codebase to a micro-frontend structure with Turborepo, reducing build times from 5m → 1.8m.",
+              "Standardized CI/CD pipelines and automated tests for feature branches via GitHub Actions."
+            ]
+          },
+          {
+            "name": "EchoSpaces",
+            "role": "Observability Engineer",
+            "description": [
+              "Built the internal observability platform powering all FlowSync SaaS products.",
+              "Integrated Sentry and OpenTelemetry for full-stack tracing across edge functions and RSC routes.",
+              "Developed a lightweight monitoring SDK enabling real-time user session replay and performance heatmaps.",
+              "Achieved a 41% drop in production error rate and a 35% improvement in debugging efficiency."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "NovaForge",
+        "link": "https://novaforge.dev",
+        "region": "Berlin, Germany (Remote)",
+        "officeMode": "Remote",
+        "start": "2021.04",
+        "end": "2023.07",
+        "jobTitle": "Frontend Engineer",
+        "techstack": [
+          "Next.js 13/14",
+          "React",
+          "TypeScript",
+          "NextAuth",
+          "Stripe",
+          "GraphQL",
+          "Apollo Client",
+          "Tailwind CSS",
+          "Cypress",
+          "Jest",
+          "Vercel",
+          "Supabase"
+        ],
+        "projects": [
+          {
+            "name": "NovaOS",
+            "role": "Frontend Developer",
+            "description": [
+              "Developed NovaOS, a unified control panel for remote teams integrating project management, tickets, and analytics.",
+              "Implemented streaming SSR and Suspense data fetching for progressive rendering (first-load performance +45%).",
+              "Created an abstraction layer for UI components to unify design patterns across multiple internal teams.",
+              "Introduced an E2E testing suite (Cypress + MSW) improving release stability by 30%."
+            ]
+          },
+          {
+            "name": "PayNova",
+            "role": "Frontend Engineer",
+            "description": [
+              "Subscription billing SaaS for EU startups, supporting multi-currency payments, tax automation, and self-serve checkout.",
+              "Integrated Stripe + SEPA APIs, implemented a unified payment adapter layer, and improved accuracy of multi-currency settlements.",
+              "Built a fully dynamic checkout form system (React Hook Form + Zod Schema) ensuring type-safe validation.",
+              "Helped increase average monthly GMV by 9.3% and conversion rate by 12% during product growth phase."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "Breeze Analytics",
+        "link": "https://breezeanalytics.io",
+        "region": "Toronto, Canada",
+        "officeMode": "Hybrid",
+        "start": "2019.07",
+        "end": "2021.03",
+        "jobTitle": "Frontend Developer",
+        "techstack": [
+          "React 17",
+          "Redux Toolkit",
+          "React Router",
+          "Styled Components",
+          "Webpack",
+          "Node.js",
+          "Express",
+          "Nginx"
+        ],
+        "projects": [
+          {
+            "name": "BreezeDash",
+            "role": "Frontend Developer",
+            "description": [
+              "Developed BreezeDash, a real-time SaaS analytics dashboard aggregating IoT and business KPIs.",
+              "Optimized table rendering with virtualization and lazy chunking, achieving smooth rendering for 100k+ rows.",
+              "Refactored global state management using Redux Toolkit to improve maintainability and code clarity.",
+              "Reduced UI rendering latency by 55% through batching and memoization."
+            ]
+          }
+        ]
+      }
+    ],
+    "skills": [
+      "React 19",
+      "Next.js 15",
+      "Server Components",
+      "Server Actions",
+      "TypeScript",
+      "Tailwind CSS 4",
+      "Shadcn UI",
+      "Radix UI",
+      "TanStack Query",
+      "Zustand",
+      "Redux Toolkit",
+      "tRPC",
+      "Prisma",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "Edge Runtime",
+      "Vercel",
+      "Cloudflare",
+      "Playwright",
+      "Vitest",
+      "Cypress",
+      "Storybook",
+      "MSW",
+      "OpenAPI",
+      "NextAuth",
+      "Clerk",
+      "Stripe",
+      "TurboRepo",
+      "Nx",
+      "Docker",
+      "GitHub Actions"
+    ],
+    "education": [
+      {
+        "school": "University of Southern California",
+        "major": "Computer Science",
+        "start": "2015",
+        "end": "2019"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Orion UI",
+        "herf": "https://github.com/haian-dev/orion-ui",
+        "tags": [
+          "React",
+          "TypeScript",
+          "Radix UI",
+          "Tailwind",
+          "Storybook"
+        ],
+        "descriptions": [
+          "An accessible headless component library built with React 19 and Radix UI, providing composable interaction primitives for design systems.",
+          "Implemented prop-driven variant patterns and dynamic theming with Tailwind 4, supporting brand-level customization.",
+          "Integrated Storybook + Vitest testing pipeline ensuring SSR and RSC compatibility across all components.",
+          "Adopted internally by five independent projects and used as the base for a design language system."
+        ]
+      },
+      {
+        "name": "next-accelerator",
+        "herf": "https://github.com/haian-dev/next-accelerator",
+        "tags": [
+          "Next.js",
+          "Server Actions",
+          "tRPC",
+          "Prisma",
+          "TurboRepo"
+        ],
+        "descriptions": [
+          "A production-ready Next.js boilerplate targeting early-stage startups for fast MVP delivery.",
+          "Includes authentication (NextAuth + Clerk), RBAC permissions, audit logging, and i18n out of the box.",
+          "Integrates Turborepo and CI pipelines for monorepo deployments across multiple environments.",
+          "Combines tRPC with Server Actions to achieve isomorphic data access and reduce API maintenance overhead."
+        ]
+      },
+      {
+        "name": "LedgerFlow",
+        "herf": "https://github.com/haian-dev/ledger-flow",
+        "tags": [
+          "Next.js",
+          "React",
+          "TanStack Table",
+          "Zod",
+          "CSV/Excel"
+        ],
+        "descriptions": [
+          "An open-source finance and invoicing manager built for freelancers and SMBs.",
+          "Implements virtualized data tables capable of handling millions of rows with smooth scrolling and lazy loading.",
+          "Combines Zod schema validation with react-hook-form for robust type-safe form handling.",
+          "Features rule-based anomaly detection, custom tagging, and automated reconciliation workflows."
+        ]
+      },
+      {
+        "name": "snap-form",
+        "herf": "https://github.com/haian-dev/snap-form",
+        "tags": [
+          "React Hook Form",
+          "Zod",
+          "RSC",
+          "Server Actions"
+        ],
+        "descriptions": [
+          "A high-performance form engine supporting dynamic fields, progressive validation, and server-side submission.",
+          "Leverages React Server Components and Server Actions to offload validation logic to the backend.",
+          "Provides a schema-driven DSL for form generation, enabling admin users to define complex forms visually.",
+          "Adopted across multiple SaaS products for building configuration panels and onboarding flows."
+        ]
+      },
+      {
+        "name": "edge-cache-kit",
+        "herf": "https://github.com/haian-dev/edge-cache-kit",
+        "tags": [
+          "Edge Runtime",
+          "Cloudflare",
+          "Vercel",
+          "KV/Cache"
+        ],
+        "descriptions": [
+          "A caching utility toolkit for Edge Functions, supporting ISR, tag-based revalidation, and smart backfill policies.",
+          "Implements intelligent LRU eviction and hot-key protection, achieving 92% cache hit rate in production.",
+          "Deployed across Cloudflare Workers and Vercel Edge environments for multiple high-traffic apps."
+        ]
+      },
+      {
+        "name": "openapi-safe-client",
+        "herf": "https://github.com/haian-dev/openapi-safe-client",
+        "tags": [
+          "OpenAPI",
+          "TypeScript",
+          "Zod",
+          "MSW"
+        ],
+        "descriptions": [
+          "Generates type-safe API clients and Zod validators directly from OpenAPI specifications.",
+          "Supports schema merging, request mocking (MSW), and automated contract testing in CI pipelines.",
+          "Standardizes API typing across frontend teams, reducing interface compatibility errors by over 80%."
+        ]
+      }
+    ]
+  }
+}
