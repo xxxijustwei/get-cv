@@ -1,8 +1,8 @@
-import { useMediaQuery } from "@/hooks/use-media-query";
 import { MasonryProps } from "masonic";
-import { useTranslations } from "next-intl";
 import dynamic from "next/dynamic";
+import { useTranslations } from "next-intl";
 import { ComponentType } from "react";
+import { useMediaQuery } from "@/hooks/use-media-query";
 import { BadgeList } from "../bage-list";
 import { Icon } from "../icons";
 import { Section } from "../ui/section";
@@ -60,8 +60,8 @@ const ProjectItem = ({ name, herf, tags, descriptions }: ProjectItemProps) => {
             {name}
           </a>
         </div>
-        <div className="text-secondary-foreground text-pretty text-xs">
-          <ul>
+        <div className="text-secondary-foreground text-pretty text-[13px]">
+          <ul className="space-y-0.5">
             {descriptions.map((description, index) => (
               <li
                 key={index}

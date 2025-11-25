@@ -1,15 +1,14 @@
 "use client";
 
 import { Slot, Slottable } from "@radix-ui/react-slot";
-import { type VariantProps, cva } from "class-variance-authority";
+import { useCallbackRef } from "@radix-ui/react-use-callback-ref";
+import { cva, type VariantProps } from "class-variance-authority";
+import { Loader2Icon } from "lucide-react";
+import { AnimatePresence, domAnimation, LazyMotion, m } from "motion/react";
 import type * as React from "react";
-
+import { useCallback, useState } from "react";
 import { useRipple } from "@/hooks/use-ripple";
 import { cn } from "@/lib/utils";
-import { useCallbackRef } from "@radix-ui/react-use-callback-ref";
-import { AnimatePresence, LazyMotion, domAnimation, m } from "framer-motion";
-import { Loader2Icon } from "lucide-react";
-import { useCallback, useState } from "react";
 
 const buttonVariants = cva(
   cn(

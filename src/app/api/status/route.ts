@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-export const GET = async (req: NextRequest) => {
+export const GET = async (_: NextRequest) => {
   return NextResponse.json({
     ok: true,
     ts: new Date().toISOString(),

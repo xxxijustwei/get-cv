@@ -1,5 +1,7 @@
 "use client";
 
+import { ChevronDownIcon } from "lucide-react";
+import { useLocale, useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -8,8 +10,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { LANGUAGES, usePathname, useRouter } from "@/i18n/routing";
-import { CheckIcon, ChevronDownIcon, EarthIcon } from "lucide-react";
-import { useLocale, useTranslations } from "next-intl";
 
 export const LanguageToggle = () => {
   const t = useTranslations("locale");

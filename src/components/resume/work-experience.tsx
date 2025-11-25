@@ -1,6 +1,6 @@
 "use client";
 
-import { Building2 } from "lucide-react";
+import { Building2, LinkIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { BadgeList } from "../bage-list";
 import { Section } from "../ui/section";
@@ -73,8 +73,8 @@ export const WorkExperienceItem = (props: WorkExperienceItemProps) => {
       <div className="mt-2 space-y-3 text-foreground/80 text-pretty">
         {projects.map((project) => (
           <div key={project.name} className="flex flex-col gap-y-1">
-            <span className="text-sm px-0.5">{`${project.name} - ${project.role}`}</span>
-            <ul className="text-xs">
+            <span className="text-sm px-0.5 font-medium">{`${project.name} - ${project.role}`}</span>
+            <ul className="text-[13px] space-y-0.5">
               {project.description.map((description, index) => (
                 <li
                   key={index}
@@ -101,13 +101,14 @@ export const CompanyLink = ({ company, link }: CompanyProps) => {
     <div className="flex items-center gap-x-1">
       <Building2 className="size-4" aria-hidden="true" />
       <a
-        className="hover:underline min-w-fit"
-        href={link}
+        className="hover:underline min-w-fit flex items-center gap-x-1"
+        href={link || undefined}
         target="_blank"
         rel="noopener noreferrer"
         aria-label={`${company} company website`}
       >
         {company}
+        {link && <LinkIcon className="size-3" />}
       </a>
     </div>
   );
@@ -121,10 +122,7 @@ interface WorkPeriodProps {
 const WorkPeriod = ({ start, end }: WorkPeriodProps) => {
   const t = useTranslations("common");
   return (
-    <div
-      className="min-w-fit text-sm tabular-nums text-gray-500"
-      aria-label={`Employment period: ${start} to ${end ?? "Present"}`}
-    >
+    <div className="min-w-fit text-sm tabular-nums text-gray-500">
       {start} - {end ?? t("present")}
     </div>
   );

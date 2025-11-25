@@ -11,10 +11,7 @@ export const Summary = () => {
       <h2 className="text-xl font-bold" id="about-section">
         {tCommon("summary")}
       </h2>
-      <div
-        className="text-pretty font-mono text-sm text-foreground/80 whitespace-pre-line"
-        aria-labelledby="about-section"
-      >
+      <div className="text-pretty font-mono text-sm text-foreground/80 whitespace-pre-line">
         {t("summary")}
       </div>
     </Section>

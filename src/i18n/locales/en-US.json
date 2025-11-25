@@ -233,13 +233,7 @@
       {
         "name": "Orion UI",
         "herf": "https://github.com/haian-dev/orion-ui",
-        "tags": [
-          "React",
-          "TypeScript",
-          "Radix UI",
-          "Tailwind",
-          "Storybook"
-        ],
+        "tags": ["React", "TypeScript", "Radix UI", "Tailwind", "Storybook"],
         "descriptions": [
           "An accessible headless component library built with React 19 and Radix UI, providing composable interaction primitives for design systems.",
           "Implemented prop-driven variant patterns and dynamic theming with Tailwind 4, supporting brand-level customization.",
@@ -250,13 +244,7 @@
       {
         "name": "next-accelerator",
         "herf": "https://github.com/haian-dev/next-accelerator",
-        "tags": [
-          "Next.js",
-          "Server Actions",
-          "tRPC",
-          "Prisma",
-          "TurboRepo"
-        ],
+        "tags": ["Next.js", "Server Actions", "tRPC", "Prisma", "TurboRepo"],
         "descriptions": [
           "A production-ready Next.js boilerplate targeting early-stage startups for fast MVP delivery.",
           "Includes authentication (NextAuth + Clerk), RBAC permissions, audit logging, and i18n out of the box.",
@@ -267,13 +255,7 @@
       {
         "name": "LedgerFlow",
         "herf": "https://github.com/haian-dev/ledger-flow",
-        "tags": [
-          "Next.js",
-          "React",
-          "TanStack Table",
-          "Zod",
-          "CSV/Excel"
-        ],
+        "tags": ["Next.js", "React", "TanStack Table", "Zod", "CSV/Excel"],
         "descriptions": [
           "An open-source finance and invoicing manager built for freelancers and SMBs.",
           "Implements virtualized data tables capable of handling millions of rows with smooth scrolling and lazy loading.",
@@ -284,12 +266,7 @@
       {
         "name": "snap-form",
         "herf": "https://github.com/haian-dev/snap-form",
-        "tags": [
-          "React Hook Form",
-          "Zod",
-          "RSC",
-          "Server Actions"
-        ],
+        "tags": ["React Hook Form", "Zod", "RSC", "Server Actions"],
         "descriptions": [
           "A high-performance form engine supporting dynamic fields, progressive validation, and server-side submission.",
           "Leverages React Server Components and Server Actions to offload validation logic to the backend.",
@@ -300,12 +277,7 @@
       {
         "name": "edge-cache-kit",
         "herf": "https://github.com/haian-dev/edge-cache-kit",
-        "tags": [
-          "Edge Runtime",
-          "Cloudflare",
-          "Vercel",
-          "KV/Cache"
-        ],
+        "tags": ["Edge Runtime", "Cloudflare", "Vercel", "KV/Cache"],
         "descriptions": [
           "A caching utility toolkit for Edge Functions, supporting ISR, tag-based revalidation, and smart backfill policies.",
           "Implements intelligent LRU eviction and hot-key protection, achieving 92% cache hit rate in production.",
@@ -315,12 +287,7 @@
       {
         "name": "openapi-safe-client",
         "herf": "https://github.com/haian-dev/openapi-safe-client",
-        "tags": [
-          "OpenAPI",
-          "TypeScript",
-          "Zod",
-          "MSW"
-        ],
+        "tags": ["OpenAPI", "TypeScript", "Zod", "MSW"],
         "descriptions": [
           "Generates type-safe API clients and Zod validators directly from OpenAPI specifications.",
           "Supports schema merging, request mocking (MSW), and automated contract testing in CI pipelines.",

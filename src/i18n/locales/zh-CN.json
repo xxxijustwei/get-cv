@@ -233,13 +233,7 @@
       {
         "name": "Orion UI",
         "herf": "https://github.com/haian-dev/orion-ui",
-        "tags": [
-          "React",
-          "TypeScript",
-          "Radix UI",
-          "Tailwind",
-          "Storybook"
-        ],
+        "tags": ["React", "TypeScript", "Radix UI", "Tailwind", "Storybook"],
         "descriptions": [
           "Orion UI 是一款基于 React 19 与 Radix UI 构建的无头组件库，旨在帮助团队快速构建一致且可访问的设计系统。",
           "实现组件属性驱动的变体机制与动态主题系统，支持品牌级定制与原子化构建。",
@@ -250,13 +244,7 @@
       {
         "name": "next-accelerator",
         "herf": "https://github.com/haian-dev/next-accelerator",
-        "tags": [
-          "Next.js",
-          "Server Actions",
-          "tRPC",
-          "Prisma",
-          "TurboRepo"
-        ],
+        "tags": ["Next.js", "Server Actions", "tRPC", "Prisma", "TurboRepo"],
         "descriptions": [
           "Next Accelerator 是一个开箱即用的企业级 Next.js 脚手架，面向初创公司快速 MVP 开发。",
           "内置用户认证（NextAuth + Clerk）、RBAC 权限控制、审计日志与国际化。",
@@ -267,13 +255,7 @@
       {
         "name": "LedgerFlow",
         "herf": "https://github.com/haian-dev/ledger-flow",
-        "tags": [
-          "Next.js",
-          "React",
-          "TanStack Table",
-          "Zod",
-          "CSV/Excel"
-        ],
+        "tags": ["Next.js", "React", "TanStack Table", "Zod", "CSV/Excel"],
         "descriptions": [
           "LedgerFlow 是一款开源财务流水与发票管理系统，面向自由职业者与小型企业。",
           "实现百万级数据的虚拟滚动表格，支持 CSV、Excel、PDF 多格式导入导出。",
@@ -284,12 +266,7 @@
       {
         "name": "snap-form",
         "herf": "https://github.com/haian-dev/snap-form",
-        "tags": [
-          "React Hook Form",
-          "Zod",
-          "RSC",
-          "Server Actions"
-        ],
+        "tags": ["React Hook Form", "Zod", "RSC", "Server Actions"],
         "descriptions": [
           "Snap Form 是一个高性能表单引擎，支持动态字段加载、渐进验证与服务端回填。",
           "利用 React Server Components + Server Actions 将验证逻辑下放服务端，实现零客户端开销。",
@@ -300,12 +277,7 @@
       {
         "name": "edge-cache-kit",
         "herf": "https://github.com/haian-dev/edge-cache-kit",
-        "tags": [
-          "Edge Runtime",
-          "Cloudflare",
-          "Vercel",
-          "KV/Cache"
-        ],
+        "tags": ["Edge Runtime", "Cloudflare", "Vercel", "KV/Cache"],
         "descriptions": [
           "Edge Cache Kit 是一个针对边缘函数优化的缓存工具集，用于 ISR、Tag Revalidation 和动态回源控制。",
           "提供智能缓存策略与 LRU 回收机制，支持热键保护与自动回填。",
@@ -315,12 +287,7 @@
       {
         "name": "openapi-safe-client",
         "herf": "https://github.com/haian-dev/openapi-safe-client",
-        "tags": [
-          "OpenAPI",
-          "TypeScript",
-          "Zod",
-          "MSW"
-        ],
+        "tags": ["OpenAPI", "TypeScript", "Zod", "MSW"],
         "descriptions": [
           "openapi-safe-client 用于从 OpenAPI 规范生成类型安全的 TypeScript 客户端与 Zod 校验器。",
           "支持请求 Mock（MSW）、Schema 合并与契约测试，实现 CI 自动化接口校验。",

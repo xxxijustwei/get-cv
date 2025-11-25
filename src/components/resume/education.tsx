@@ -44,14 +44,7 @@ const EducationItem = ({ school, major, start, end }: EducationItemProps) => {
         </h3>
         <EducationPeriod start={start} end={end} />
       </div>
-      <div
-        className="mt-1 text-foreground/80 text-sm"
-        aria-labelledby={`education-${school
-          .toLowerCase()
-          .replace(/\s+/g, "-")}`}
-      >
-        {major}
-      </div>
+      <div className="mt-1 text-foreground/80 text-sm">{major}</div>
     </div>
   );
 };
@@ -63,10 +56,7 @@ interface EducationPeriodProps {
 
 const EducationPeriod = ({ start, end }: EducationPeriodProps) => {
   return (
-    <div
-      className="text-sm tabular-nums text-gray-500"
-      aria-label={`Period: ${start} to ${end}`}
-    >
+    <div className="text-sm tabular-nums text-gray-500">
       {start} - {end}
     </div>
   );

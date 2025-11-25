@@ -14,8 +14,8 @@ export const ModeToggle = () => {
 
   return (
     <Button variant="ghost" size="icon" className="size-8" onClick={toggle}>
-      <SunIcon className="hidden [html.dark_&]:block !size-6" />
-      <MoonIcon className="hidden [html.light_&]:block !size-6" />
+      <SunIcon className="hidden [html.dark_&]:block size-6!" />
+      <MoonIcon className="hidden [html.light_&]:block size-6!" />
       <span className="sr-only">Toggle theme</span>
     </Button>
   );
