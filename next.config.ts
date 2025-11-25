@@ -11,6 +11,12 @@ const nextConfig: NextConfig = {
   },
   output: "standalone",
   serverExternalPackages: ["pino", "pino-pretty"],
+  experimental: {
+    staleTimes: {
+      dynamic: 30,
+      static: 180,
+    },
+  },
 };
 
 export default withNextIntl(nextConfig);
