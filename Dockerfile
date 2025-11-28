@@ -1,30 +1,34 @@
 ## Stage 1: Dependencies
-FROM oven/bun:1.2-alpine AS deps
+FROM node:20-alpine AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
+# Install pnpm
+RUN corepack enable
+
 # Copy package files
-COPY package.json bun.lock* ./
+COPY package.json pnpm-lock.yaml ./
 
 # Install dependencies
-RUN bun install --frozen-lockfile
+RUN pnpm install --frozen-lockfile
 
 # Stage 2: Builder
-FROM oven/bun:1.2-alpine AS builder
+FROM node:20-alpine AS builder
 WORKDIR /app
 
-# Install git
+# Install git and pnpm
 RUN apk add --no-cache git
+RUN corepack enable
 
 # Copy dependencies from deps stage
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
 # Build application
-RUN bun run build
+RUN pnpm run build
 
 # Stage 3: Runner
-FROM oven/bun:1.2-alpine AS runner
+FROM node:20-alpine AS runner
 WORKDIR /app
 
 ENV NODE_ENV=production
@@ -45,4 +49,4 @@ EXPOSE 3000
 ENV PORT=3000
 ENV HOSTNAME="0.0.0.0"
 
-CMD ["bun", "server.js"]
+CMD ["node", "server.js"]
